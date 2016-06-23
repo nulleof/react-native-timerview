@@ -2,9 +2,9 @@
 
 ## Timer view for react-native
 
-This component creates timer which starts from 00:00:00, uses custom interval of refreshing and can be paused or resumed again from the last value.
+This component creates timer which starts from 00:00.00, uses custom interval of refreshing and can be paused or resumed again from the last value.
 
-![Image of react-grid-view](timer.jpg)
+![Image of react-native-timerview](timer.png)
 
 ### Installation
 ```bash
@@ -16,6 +16,7 @@ npm install --save react-native-timerview
 interval={100} // Time of timer cycle in ms
 isPaused={false} // Initial pause state of timer
 style={styles.textStyle} // This timer is a wrapper of react-native <Text> so this style is applying directly to Text object
+
 //You can use additional properties of <Text> object
 ```
 

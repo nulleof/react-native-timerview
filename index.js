@@ -12,9 +12,9 @@ class TimerView extends Component {
         super(props);
 
         this.state = {
-            timeElapsed: props.timeElapsed,
+            timeElapsed: 0,
             isPaused: false,
-            tickInterval: props.interval
+            tickInterval: props.interval || 100
         }
     }
 
