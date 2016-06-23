@@ -24,6 +24,6 @@
     "minutes-seconds-milliseconds": "^1.0.3"
   },
   "peerDependencies": {
-    "react-native": "^0.25.0"
+    "react-native": ">=0.25.0"
   }
 }
