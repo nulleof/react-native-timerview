@@ -1,0 +1,29 @@
+{
+  "name": "react-native-timerview",
+  "version": "1.0.0",
+  "description": "Timer view module with pause ability for react-native projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nulleof/react-native-timerview.git"
+  },
+  "keywords": [
+    "react-native",
+    "timer"
+  ],
+  "author": "NullEOF <nulleof@gmail.com> (nulleof.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nulleof/react-native-timerview/issues"
+  },
+  "homepage": "https://github.com/nulleof/react-native-timerview#readme",
+  "dependencies": {
+    "minutes-seconds-milliseconds": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react-native": "^0.25.0"
+  }
+}
